@@ -1,4 +1,4 @@
-spring-boot-maven-angular-starter
+spring-boot-maven-angular-starter ![Build Status](https://travis-ci.org/shekhargulati/spring-boot-maven-angular-starter.svg?branch=master)
 -----
 
 This is a multi-module Spring Boot Angular Maven starter app with good defaults.
