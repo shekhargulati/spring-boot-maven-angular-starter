@@ -39,6 +39,7 @@ This starter comes bundled with the following features:
 6. CORS enabled: A global configuration is added to enable CORS so that frontend can work seamlessly with backend during development.
 7. REST API base path: Sets the base REST API path to `/api`. You can configure it by changing `rest.api.base.path` property.
 8. Maven release plugin
+9. CI: The project is preconfigured to use TravisCI as continuous integration server.
 
 ## Running the backend for development mode
 
