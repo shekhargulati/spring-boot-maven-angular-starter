@@ -21,11 +21,24 @@
         <module>frontend</module>
         <module>backend</module>
     </modules>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
     </properties>
+
+    <scm>
+        <url>https://github.com/shekhargulati/spring-boot-maven-angular-starter/</url>
+        <connection>scm:git:https://github.com/shekhargulati/spring-boot-maven-angular-starter.git</connection>
+        <developerConnection>scm:git:git@github.com:shekhargulati/spring-boot-maven-angular-starter.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
+    <issueManagement>
+        <system>GitHub Issues</system>
+        <url>https://github.com/shekhargulati/spring-boot-maven-angular-starter/issues</url>
+    </issueManagement>
 
     <build>
         <pluginManagement>
