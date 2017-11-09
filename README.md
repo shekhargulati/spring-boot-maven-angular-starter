@@ -2,7 +2,7 @@ spring-boot-maven-angular-starter ![Build Status](https://travis-ci.org/shekharg
 -----
 
 This is a multi-module Spring Boot Angular Maven starter app with good defaults.
-The frontend Angular app is built using [angular-cli](https://cli.angular.io/). The project packages Angular application code as a [WebJar](https://www.webjars.org/). This project is geared towards building monolithic applications. 
+The frontend Angular app is built using [angular-cli](https://cli.angular.io/). The project packages Angular application code as a [WebJar](https://www.webjars.org/). This project is geared towards building monolithic applications. I have also written [a blog that explains step by step how to create this starter project](https://shekhargulati.com/2017/11/08/a-minimalist-guide-to-building-spring-boot-angular-5-applications/).
 
 This project provides productive setup for building Spring Boot Angular applications. The application is divided into two Maven modules:
 
