@@ -11,8 +11,8 @@ This project provides productive setup for building Spring Boot Angular applicat
 
 This project uses following versions:
 
-1. Spring Boot v1.5.8
-2. Angular v5.0.0
+1. Spring Boot v1.5.9
+2. Angular v5.0.4
 3. Node v8.9.0
 4. Yarn v1.3.2
 
