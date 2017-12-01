@@ -9,9 +9,9 @@
         <relativePath />
     </parent>
 
-    <groupId>com.shekhargulati</groupId>
-    <artifactId>email-campaign-manager</artifactId>
-    <version>0.1.0-SNAPSHOT</version>
+    <groupId>com.shekhargulati.starters.ngboot</groupId>
+    <artifactId>spring-boot-angular-starter</artifactId>
+    <version>0.2.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>spring-boot-angular-starter</name>
     <description>Spring Boot Angular Starter Project</description>
