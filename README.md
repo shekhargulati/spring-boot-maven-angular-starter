@@ -68,4 +68,4 @@ Once the above command finishes, you can start the frontend using the `yarn star
 
 ## Hot reloading
 
-Both the frontend and backend support hot reloading.
+Both the front-end and back-end modules support hot reloading.
