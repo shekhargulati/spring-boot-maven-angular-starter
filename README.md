@@ -70,3 +70,9 @@ Once the above command finishes, you can start the frontend using the `npm run s
 ## Hot reloading
 
 Both the front-end and back-end modules support hot reloading.
+
+## Example Application
+
+Following are the example applications built using this starter
+
+1. [boot-angular-pagination-example-app](https://github.com/shekhargulati/boot-angular-pagination-example-app)
