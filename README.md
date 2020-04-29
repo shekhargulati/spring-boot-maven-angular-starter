@@ -1,20 +1,23 @@
-spring-boot-maven-angular-starter ![Build Status](https://travis-ci.org/shekhargulati/spring-boot-maven-angular-starter.svg?branch=master)
+spring-boot-maven-angular-starter [![Build Status](https://travis-ci.org/shekhargulati/spring-boot-maven-angular-starter.svg?branch=master)](https://travis-ci.org/shekhargulati/spring-boot-maven-angular-starter)
 -----
 
 This is a multi-module Spring Boot Angular Maven starter app with good defaults.
-The frontend Angular app is built using [angular-cli](https://cli.angular.io/). The project packages Angular application code as a [WebJar](https://www.webjars.org/). This project is geared towards building monolithic applications. I have also written [a blog that explains step by step how to create this starter project](https://shekhargulati.com/2017/11/08/a-minimalist-guide-to-building-spring-boot-angular-5-applications/).
+The frontend Angular app is built using [angular-cli](https://cli.angular.io/). 
+The project packages Angular application code as a [WebJar](https://www.webjars.org/). 
+This project is geared towards building monolithic applications. 
+I have also written [a blog that explains step by step how to create this starter project](https://shekhargulati.com/2017/11/08/a-minimalist-guide-to-building-spring-boot-angular-5-applications/).
 
-This project provides productive setup for building Spring Boot Angular applications. The application is divided into two Maven modules:
+This project provides productive setup for building Spring Boot Angular applications. 
+The application is divided into two Maven modules:
 
 1. `backend`: This contains Java code of the application.
-2. `frontend`: This contains source code for the Angular based frontend.
+2. `ui`: This contains source code for the Angular based frontend.
 
 This project uses following versions:
 
-1. Spring Boot v1.5.9
-2. Angular v5.0.4
-3. Node v8.9.0
-4. Yarn v1.3.2
+1. Spring Boot v2.2.6.RELEASE
+2. Angular v9.1.1
+3. Node v12.16.2
 
 ## Running the full application
 
@@ -22,7 +25,7 @@ You can build the package as a single artifact by running the `./mvnw clean inst
 Next, you can run the application by executing:
 
 ```bash
-$ java -jar backend/target/ngboot-app.jar
+$ java -jar backend/target/app.jar
 ```
 
 The application will be accessible at `http://localhost:8080`.
@@ -55,16 +58,14 @@ $  ../mvnw spring-boot:run
 
 ## Running the frontend for development mode
 
-Make sure to install [yarn on your development machine](https://yarnpkg.com/en/docs/install).
-
 To install all the required binaries for your project, you can run following command.
 
 ```
 $ cd frontend
-$ ../mvnw frontend:install-node-and-yarn frontend:yarn
+$ ../mvnw frontend:install-node-and-npm
 ```
 
-Once the above command finishes, you can start the frontend using the `yarn start` command.
+Once the above command finishes, you can start the frontend using the `npm run serve` command.
 
 ## Hot reloading
 
